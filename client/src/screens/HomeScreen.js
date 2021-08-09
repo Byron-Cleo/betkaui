@@ -4,7 +4,10 @@ import React from 'react';
 const HomeScreen = () => {
   return (
     <>
-      <div style={{ marginTop: '3rem' }}>
+      <div
+        className="page"
+        style={{ backgroundColor: '#0C1625', height: '100vh' }}
+      >
         <h1>Main Home Screen/Page</h1>
       </div>
     </>

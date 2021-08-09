@@ -20,3 +20,8 @@
 .header-color {
   background-color: #68aa40;
 }
+
+.page {
+  background-color: #0c1625;
+  height: 100vh;
+}

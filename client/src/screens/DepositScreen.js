@@ -2,7 +2,7 @@ import React from 'react';
 
 const DepositScreen = () => {
   return (
-    <div>
+    <div className="page">
       <h3>The Deposit Screen/Page</h3>
     </div>
   );
