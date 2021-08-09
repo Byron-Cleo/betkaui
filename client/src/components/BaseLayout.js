@@ -1,11 +1,12 @@
 import React from 'react';
 import HomeHeader from './HomeHeader';
 
-const BaseLayout = () => {
+const BaseLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <HomeHeader />
-    </div>
+      {children}
+    </>
   );
 };
 

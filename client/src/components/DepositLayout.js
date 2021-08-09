@@ -1,11 +1,12 @@
 import React from 'react';
 import DepositHeader from './DepositHeader';
 
-const DepositLayout = () => {
+const DepositLayout = ({ children }) => {
   return (
-    <div>
+    <>
       <DepositHeader />
-    </div>
+      {children}
+    </>
   );
 };
 
