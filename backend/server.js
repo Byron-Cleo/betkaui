@@ -15,6 +15,6 @@ app.listen(PORT, () => {
       `Betka Application in ${ENV} Mode Running on ${PORT} with PostgreSQL DB... ;)`
     );
   } catch (error) {
-    console.log(error);
+    console.log('This is the Error from the server', error);
   }
 });
