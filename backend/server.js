@@ -1,4 +1,4 @@
-const dotenv = require('../node_moduless/dotenv/types');
+const dotenv = require('dotenv');
 dotenv.config({ path: './config.env' });
 
 // const { sequelize } = require('./models');
