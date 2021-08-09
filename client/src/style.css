@@ -24,4 +24,10 @@
 .page {
   background-color: #0c1625;
   height: 100vh;
+  color: white;
+  padding-top: 3.5rem;
+}
+
+.info-bar {
+  padding-top: 5rem;
 }

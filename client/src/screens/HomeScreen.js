@@ -1,14 +1,25 @@
 import React from 'react';
-// import Base from './HomeHeader';
+import { Row, Col } from 'react-bootstrap';
+// import { Link } from 'react-router-dom';
 
 const HomeScreen = () => {
   return (
     <>
-      <div
-        className="page"
-        style={{ backgroundColor: '#0C1625', height: '100vh' }}
-      >
-        <h1>Main Home Screen/Page</h1>
+      <div className="page">
+        <Row
+          style={{
+            height: '2.5rem',
+            paddingLeft: '2rem',
+            paddingRight: '2rem',
+          }}
+        >
+          <Col className="text-left">
+            <h3 className="navbar-brand">Teams</h3>
+          </Col>
+          <Col className="text-right">
+            <h3 className="navbar-brand">Away</h3>
+          </Col>
+        </Row>
       </div>
     </>
   );
