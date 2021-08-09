@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col, Container, Card, Nav } from 'react-bootstrap';
+import { Row, Col, Container, Card, Nav, ListGroup } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFutbol, faCircle } from '@fortawesome/free-solid-svg-icons';
@@ -425,6 +425,38 @@ const DepositScreen = () => {
             </Nav.Link>
           </Nav.Item>
         </Nav>
+        <div
+          style={{
+            width: '100%',
+            height: '3rem',
+            backgroundColor: '#1A2E37',
+            marginTop: '1rem',
+            marginBottom: '1rem',
+          }}
+        ></div>
+        <span
+          style={{
+            backgroundColor: '#68aa40',
+            marginTop: '1rem',
+            padding: '.5rem',
+          }}
+        >
+          Deposit
+        </span>
+        <ListGroup style={{ marginTop: '1rem' }}>
+          <ListGroup.Item className="paylist">
+            1. Go to M-PESA Menu
+          </ListGroup.Item>
+          <ListGroup.Item className="paylist">
+            2. Select Pay Bill
+          </ListGroup.Item>
+          <ListGroup.Item className="paylist">
+            3. Enter Business Number xxxxxxxx
+          </ListGroup.Item>
+          <ListGroup.Item className="paylist">
+            4. Enter Tip as Account Number
+          </ListGroup.Item>
+        </ListGroup>
       </Container>
     </div>
   );
