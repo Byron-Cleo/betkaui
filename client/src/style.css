@@ -1,12 +1,22 @@
 .cust-btn {
-  background-color: blue;
+  background-color: #06245c;
   color: white;
   border-radius: 10px;
   padding: 2px 10px 2px 10px;
-  border: solid 2px blue;
+  border: solid 2px #06245c;
 }
 .cust-btn:hover {
-  background-color: blue;
+  background-color: #06245c;
   color: white;
-  border: solid 2px blue;
+  border: solid 2px #06245c;
+}
+
+.cust-btn:active {
+  background-color: #06245c;
+  color: white;
+  border: solid 2px #06245c;
+}
+
+.header-color {
+  background-color: #68aa40;
 }

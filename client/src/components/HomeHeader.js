@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const HomeHeader = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-success">
+      <nav class="navbar navbar-expand-lg navbar-dark header-color">
         <div class="container-fluid">
           <Link to="/" className="navbar-brand">
             Betka
